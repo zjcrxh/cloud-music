@@ -1,0 +1,2 @@
+<!--components/card/card.wxml-->
+<view class="card">推荐歌曲</view>
