@@ -3,11 +3,11 @@
   <swiper-item wx:for="{{imgUrls}}">
     <image src="{{item.url}}" class="img" mode="scaleToFill"></image>
   </swiper-item>
-</swiper>
-<text class="">推荐歌曲</text>
+ </swiper>
+<!-- <text class="">推荐歌曲</text>
 <view>
   <block wx:for="{{cards}}">
     <my-card></my-card>
   </block>
-</view>
+</view>  -->
 

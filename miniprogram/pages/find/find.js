@@ -5,16 +5,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    imgUrls:[{
-      url:'http://p1.music.126.net/1hzImIzOsRzG0iBSvHOO7w==/109951165511341127.jpg?param=140y140'
-    },
-    {
-      url:'http://p1.music.126.net/Xvo6PwBcdOA69ipcpV9YYg==/109951165463253777.jpg?param=140y140'
-    },
-    {
-      url:'http://p2.music.126.net/_rFjQsgRJfTQT55Wuv7T2Q==/109951165660082678.jpg?param=140y140'
-    }
-  ]
+  //   imgUrls:[{
+  //     url:'http://p1.music.126.net/1hzImIzOsRzG0iBSvHOO7w==/109951165511341127.jpg?param=140y140'
+  //   },
+  //   {
+  //     url:'http://p1.music.126.net/Xvo6PwBcdOA69ipcpV9YYg==/109951165463253777.jpg?param=140y140'
+  //   },
+  //   {
+  //     url:'http://p2.music.126.net/_rFjQsgRJfTQT55Wuv7T2Q==/109951165660082678.jpg?param=140y140'
+  //   }
+  // ]
   },
 
   /**
