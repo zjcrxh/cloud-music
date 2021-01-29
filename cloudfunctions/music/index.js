@@ -35,5 +35,10 @@ exports.main = async (event, context) => {
     console.log('######' + res)
     ctx.body = res.data
   })
+//根据歌曲id获取歌曲播放的url
+  app.router('musicUrl',async(ctx,next) => {
+    const res=await axios.get(`${BASE_URL}/song/url?id=${event.musicId}`)
+    ctx.body=res.data
+  })
   return app.serve()
 }
