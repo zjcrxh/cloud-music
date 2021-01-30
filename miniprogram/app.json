@@ -7,7 +7,7 @@
    "pages/test/test",
    "pages/player/player"
   ],
-  "requireBackgroundModes": [
+  "requiredBackgroundModes": [
     "audio"
   ],
   "window": {

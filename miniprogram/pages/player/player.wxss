@@ -48,6 +48,11 @@
   background: url('https://zjcoss.oss-cn-shenzhen.aliyuncs.com/md/20210129170810.png') no-repeat center/contain;
   transform:rotate(-15deg);
   transform-origin:24rpx 10rpx ;
+  transform: transform 0.8s ease;
+}
+
+.playing.player-disc::after{
+  transform:rotate(0deg)
 }
 
 .player-img{
@@ -61,6 +66,21 @@
   margin-left:-184rpx;
 }
 
+.zhuan{
+  animation: disc 12s linear infinite;
+}
+@keyframes disc{
+  from{
+     transform:rotate(0deg);
+  }
+  to{
+    transform:rotate(360deg);
+  }
+}
+
+.ting{
+  animation-play-state:paused;
+}
 .control{
   position: absolute;
   bottom: 8%;
