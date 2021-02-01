@@ -8,7 +8,12 @@
     <view class="player-disc {{isPlaying?'playing':''}}">
       <image class="player-img  zhuan {{isPlaying?'':'ting'}}" 
       src="{{picUrl}}"></image>
-    </view>    
+    </view>  
+    
+    <!-- 进度条-->
+    <view class="progress-bar">
+    <z-progress-bar bind:musicEnd="onNext"/>
+    </view>
 
 <!-- 控制面板-->
   <view class="control">
